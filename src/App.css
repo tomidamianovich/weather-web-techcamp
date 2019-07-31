@@ -1,15 +1,85 @@
 .App {
   text-align: center;
+  background-color: white;
+  width: 90%;
+  margin: 130px 5%;
+  box-shadow: 0px 0px 4px 1px grey;
+  clear: both;
+  border-radius: 5px; 
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+img {
+  padding: 20px;
+}
+
+.days-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+span#day-title{
+  position: relative;
+    top: -20px;
+    left: -20px;
+    background-color: grey;
+    height: 29px;
+    width: 147.5px;
+    /* border-radius: 4px; */
+    color: white;
+    font-size: 19px;
+    margin: 0px;
+}
+
+
+span {
+    display: block;
+}
+span#title{
+  display: flex;
+  align-items: flex-start;
+  padding-top: 15px;
+  padding-left: 20px;
+  justify-content: flex-start;
+}
+
+.App-container h1{
+  color: #47525f;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 57px;
+  background-color: white;
+  text-decoration: unset;
+}
+
+.days-container li {
+  flex-direction: row;
+  width: 107px;
+  border: 2px solid #748ba5;
+  padding: 20px;
+  height: 102px;
+  margin: 20px;
+  display: block;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.days-container li:hover {
+  flex-direction: row;
+  width: 107px;
+  border: 2px solid #748ba5;
+  padding: 20px;
+  height: 102px;
+  margin: 20px;
+  display: block;
+  border-radius: 5px;
+  background-color: #d3d3d37d;
+  color: black;
+  cursor: pointer;
 }
 
 .App-header {
-  background-color: #282c34;
+  background: rgba(183,222,237,1);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
